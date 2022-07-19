@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Merriweather:ital,wght@1,300&family=Noto+Sans:ital@1&family=Sacramento&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components 
+{
+    
+    .topc{
+        @apply
+       mx-[80%];
+       @apply 
+       mb-[5%];
+       @apply
+       w-[15%]
+    }
+    .bottomc{
+        @apply
+        mx-[10%];
+        @apply
+        mt-[5%];
+        @apply
+        w-[12%];
+    }
+    .profile{
+        @apply
+        ml-auto;
+        @apply
+        mr-auto;
+        @apply
+        w-[200px];
+        @apply 
+        mt-10;
+        @apply
+        mb-5;
+    }
+    .intro{
+        @apply
+        text-center;
+        @apply
+        mr-[10%];
+        @apply
+        ml-[10%];
+    }
+    .moun{
+        @apply
+        mt-[4%];
+        @apply
+        mr-auto;
+        @apply
+        ml-auto;
+        @apply
+        w-[40%];
+
+    }
+    .linkcol:hover{
+        @apply
+       text-red-500;
+    }
+    .chan{
+        @apply
+        w-[60%];
+        @apply
+        ml-[100px];
+        @apply
+        mb-[7%];
+    }
+    
+}
+.hin{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    color: #66BFBF;
+}
+.fontm{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+}
+.stu{
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+.top{
+    background-color: #EAF6F6;
+}
+.dev{
+    margin-left: 32%;
+}
+.bottom{
+    background-color: #66BFBF;
+    width: auto;
+    height: 50%;
+}
+.compn{
+width: 5%;
+margin: 0 ;
+float: left;
+}
+.wih{
+    @apply
+    mt-[10%];
+}
+.col{
+    color: #66BFBF;
+    font-size: 1.5rem;
+}
+.tae{
+   margin: 0 auto 50px auto;
+}
+.comp{
+    width: 60%;
+    margin: 100px 0 0 50px;
+}
+
+.design{
+margin-left: 0;
+}
+.format
+{
+  color: grey;
+  display: inline;
+}
+.format:hover{
+    color: white;
+}
+.left
+{
+  
+  margin-right: 5%;
+}
+.right{
+
+}
+.mid{
+  margin-right: 5%;
+}
